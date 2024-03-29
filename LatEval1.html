@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        h1{
+            text-align: center;
+            color:darksalmon;
+            background-color: beige;
+        }  
+        table,th,td {
+            border: 1px solid black;
+        }
+ 
+        #table2 {
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border: 3px solid green;
+        }
+
+        #table2 td, #table2 th{
+          border: 2px solid green;
+          padding: 6px;
+        }
+        #table2 tr:nth-child(even){background-color: beige;}
+
+        #table2 tr:hover {background-color: greenyellow;}
+
+        #table2 th{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            background-color:chartreuse;
+            color: black;
+        }
+        </style>
+        <h1>LATIHAN EVALUASI WEB1</h1>
+ 
+        <h2>Contoh Merk Kendaraan</h2>
+
+<ol>
+    <li>Motor</li>
+    <ul>
+        <li>Honda</li>
+        <li>Yamaha</li>
+        <li>Kawasaki</li>
+    </ul>
+    <li>Mobil</li>
+    <ul>
+        <li>Suzuki</li>
+        <li>Toyota</li>
+        <li>Daihatsu</li>
+    </ul>
+</ol> 
+<style>
+    table, th, td {
+        border: 1px solid;
+    }
+    
+    </style>
+
+    <table style="width: 80px">
+      <tr>
+        <th>A</th>
+        <th>B</th>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <br>
+
+<table id="table2" style="width:33%">
+    <tr>
+        <td Colspan = "2" Align = "Center" style="background-color:chartreuse;"><b>Data Mahasiswa</b></th>
+    </tr>
+    <td>Name</td>
+    <td>No. Telp</td>
+  </tr>
+  <tr>
+    <td>Jennie</td>
+    <td>543.876</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Ryujin</td>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+  <td>Minji</td>
+  <td rowspan="3"><img src="https://static-00.iconduck.com/assets.00/call-icon-2047x2048-1v137evf.png" width="100px" height="100px"></td>
+  </tr>
+    <td>Yunjin</td>
+  </tr>
+</table>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>replit</title>
+
+<body>
+  <h1>JavaScript Aritmatic</h1>
+
+  <h2>Hitunglah hasil berikut ini</h2>
+    <script>
+        let a = 5;
+        let b = 6;
+
+        function hitungNilai(a, b) {
+        return a * b;
+        } 
+        let hasil = hitungNilai(a, b);
+
+        function myFunction(){
+        alert("Hasil "+a+" * "+b+" = "+hasil);
+        }
+        document.write("Nilai a = "+a+"<br>");
+        document.write("Nilai b = "+b+"<br>");
+    </script><br>
+        <button onclick="myFunction()">Hasil</button>
+</body>
+</html>
