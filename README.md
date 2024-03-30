@@ -113,6 +113,8 @@ lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu ji
 
 terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
 
+![Screenshot (236)](https://github.com/NoniAprillia/HTML-CSS-JAVASCRIPT/assets/165237591/04b0e52b-800f-4484-8c64-0a79e2f845da)
+
 
 - Mencari hasil perkalian menggunakan JavaScript.
 ```sh
