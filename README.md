@@ -137,3 +137,6 @@ terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar ya
 </body>
 </html>
 ```
+
+h1 merupakan bagian heading atau judul sedangkan h2 nya adalah sub judul 
+lalu masuk kebagian script nya ada let a dan let b fungsi nya sebagai wadah untuk menampung dan let hasil kita jadikan kunci untuk dipanggil pada function. document write untuk menampilkan hasil yang akan keluar tanpa harus menulis manual dan alert adalah tampilan seperti notif yang muncul menmunculkan hasilnya. button sebagai atribut yang di gunakan untuk mengeklik hasil dari suatu proses 
