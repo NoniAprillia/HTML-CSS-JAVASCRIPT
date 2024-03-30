@@ -46,10 +46,9 @@ Dibawah ini contoh jadwal praktikum pemograman web kelas Ti B menggunakan list
 </body>
 </html>
 
+maksud dari code diatas adalah h2 untuk memberi heading atau judul maupun sub judul yang berukuran 2, lalu ada ol yang fungsi nya untuk menampilkan angka 1,2,3, berikutnya ada li sebagai list 
 
-maksud dari code diatas adalah <h2></h2> untuk memberi heading atau judul maupun sub judul yang berukuran 2, lalu ada <ol></ol> yang fungsi nya untuk menampilkan angka 1,2,3, berikutnya ada <li></li> sebagai list 
 
-Tabel ke2
 <!DOCTYPE html>
 <html>
 <head>
