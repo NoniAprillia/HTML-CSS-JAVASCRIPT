@@ -82,7 +82,7 @@ berikutnya kita akan membuat tabel dengan css
         
 <table id="table2" style="width:33%">
     <tr>
-        <td Colspan = "2" Align = "Center" style="background-color:chartreuse;"><b>Data Mahasiswa</b></th>
+        <td Colspan = "2" Align = "Center" style="background-color:chartreuse;"><b>Kontak Mahasiswa</b></th>
     </tr>
     <td>Name</td>
     <td>No. Telp</td>
