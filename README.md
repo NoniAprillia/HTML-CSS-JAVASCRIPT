@@ -19,9 +19,13 @@ TI 1B
 Dengan kita belajar html, css, dan juga java script akan lebih memudahkan kita untuk membuat suatu program
 
 ##CONTENT
-a. Membuat List merek kendaraan 
+
+a. Membuat List merek kendaraan
+
 b. Membuat tabel menggunakan border
+
 c. Membuat tabel Mahasiswa menggunakan style css
+
 d. Mencari hasil nilai dari suatu tabel
 
 ##PREVIEW
