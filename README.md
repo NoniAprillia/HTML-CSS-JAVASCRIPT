@@ -1,11 +1,18 @@
-#TUGAS 2
+ #TUGAS 2
 PRAKTIKUM PEMOGRAMAN WEB 1
 TI 1B
 
 ##MATERI INI BERISI TENTANG 
-1. HTML (Hypertext Markup Language)
-2. CSS (Cascading Style Sheets)
-3. JAVA SCRIPT
+1. HTML
+   apa itu html ? html singkatan dari Hypertext Markup Language
+   lebih mudah kita anggap seperti hal nya suatu bangunan atau rumah yang di buat
+   pastinya harus membutuhkan suatu pondas, begitu juga pemograman akan ada pondasi
+   untuk menjalankan suatu program itu dengan html 
+3. CSS (Cascading Style Sheets)
+4. JAVA SCRIPT
+
+Dengan kita belajar html, css, dan juga java script akan lebih memudahkan kita untuk membuat suatu program, lalu apa
+saja yang sudah kita pelajari
 
 ##CONTENT
 a. Membuat List merek kendaraan 
