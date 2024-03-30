@@ -52,12 +52,6 @@ maksud dari code diatas adalah h2 untuk memberi heading atau judul maupun sub ju
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-</head>
 <body>
 
 <h2>Table With Border</h2>
