@@ -113,4 +113,4 @@ lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu ji
 
 terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
 
-![alt text ](http://localhost/eval%20ulang%20web1/kontak%20mahasiswa.html?raw=true)
+![alt text](http://localhost/eval%20ulang%20web1/kontak%20mahasiswa.html?raw=true)
