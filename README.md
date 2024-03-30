@@ -117,16 +117,15 @@ terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar ya
   ```sh
   <h2>JavaScript if .. else</h2>
   <p>A time-based greeting:</p>
-
-<p id="demo"></p>
-<script>
-const time = new Date().getHours();
-let greeting;
-if (time < 10) {
+  <p id="demo"></p>
+  <script>
+  const time = new Date().getHours();
+  let greeting;
+  if (time < 10) {
   greeting = "Good morning";
-} else if (time < 20) {
+  } else if (time < 20) {
   greeting = "Good day";
-} else {
+  } else {
   greeting = "Good evening";
-}
-```
+  }
+  ```
