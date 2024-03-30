@@ -113,19 +113,27 @@ lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu ji
 
 terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
 
-- selanjutnya menentukan waktu menggunakan javascript.
-  ```sh
-  <h2>JavaScript if .. else</h2>
-  <p>A time-based greeting:</p>
-  <p id="demo"></p>
-  <script>
-  const time = new Date().getHours();
-  let greeting;
-  if (time < 10) {
-  greeting = "Good morning";
-  } else if (time < 20) {
-  greeting = "Good day";
-  } else {
-  greeting = "Good evening";
-  }
-  ```
+
+- Mencari hasil perkalian menggunakan JavaScript.
+```sh
+<h1>JavaScript Aritmatic</h1>
+<h2>Hitunglah hasil berikut ini</h2>
+    <script>
+        let a = 5;
+        let b = 6;
+
+        function hitungNilai(a, b) {
+        return a * b;
+        } 
+        let hasil = hitungNilai(a, b);
+
+        function myFunction(){
+        alert("Hasil "+a+" * "+b+" = "+hasil);
+        }
+        document.write("Nilai a = "+a+"<br>");
+        document.write("Nilai b = "+b+"<br>");
+    </script><br>
+        <button onclick="myFunction()">Hasil</button>
+</body>
+</html>
+```
