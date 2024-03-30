@@ -105,7 +105,7 @@ berikutnya kita akan membuat tabel kontak person mahasiswa dengan mrnggunakan cs
   </tr>
 </table>
 
-pertama beri wadah atau tempat menyimpan id tabel dengan simbol pagar untuk di panggil nanti. lalu di style font, color, backgound color, width, dan juga border lalu id table td dan th untuk garis penyekat tabel di beri border dan padding
+pertama beri wadah atau tempat menyimpan id tabel dengan simbol pagar # untuk di panggil nanti. lalu di style font, color, backgound color, width, dan juga border lalu id table td dan th untuk garis penyekat tabel di beri border dan padding
 
 lalu pemberian hover yang membuat saat mouse ketika diarahkan kepada table makan table akan berwarna tanpa di klik dengan hover
 
