@@ -112,3 +112,42 @@ lalu pemberian hover yang membuat saat mouse ketika diarahkan kepada table makan
 lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu jika ingin menggabukan beberapa baris kolom maka menggunakan rowspan 
 
 terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
+
+selanjutnya mencari hari menggunakan javascript 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript switch</h2>
+
+<p id="demo"></p>
+
+<script>
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>
