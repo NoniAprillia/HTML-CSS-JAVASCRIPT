@@ -146,6 +146,7 @@ lalu masuk kebagian script nya ada let a dan let b fungsi nya sebagai wadah untu
 
 document write untuk menampilkan hasil yang akan keluar tanpa harus menulis manual dan alert adalah tampilan seperti notif yang muncul menmunculkan hasilnya. 
 
-button sebagai atribut yang di gunakan untuk mengeklik hasil dari suatu proses 
+button sebagai atribut yang di gunakan untuk mengeklik hasil dari suatu proses yang di definisikan sebagai sebuat tombol di dalam butto kita bisa menambahkan text, strong, tebal kata / br, dan juga gambar
+biasanya button bertuliskan submit, hasil, hitunglah, atau carilah
 
 ![Screenshot (237)](https://github.com/NoniAprillia/HTML-CSS-JAVASCRIPT/assets/165237591/7fa3d880-ebbe-4a73-a0d9-c7a384e298bd)
