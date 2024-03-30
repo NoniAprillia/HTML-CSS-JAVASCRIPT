@@ -53,6 +53,7 @@ berikutnya kita akan membuat tabel dengan css
 <html>
 <head>
 <style>
+ <h1>A Fancy Table</h1>
 #customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -78,8 +79,6 @@ berikutnya kita akan membuat tabel dengan css
 </style>
 </head>
 <body>
-
-<h1>A Fancy Table</h1>
 
 <table id="customers">
   <tr>
