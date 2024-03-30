@@ -29,6 +29,7 @@ c. Membuat tabel Mahasiswa menggunakan style css
 d. Mencari hasil nilai dari suatu tabel
 
 ##PREVIEW
+
 Dibawah ini contoh jadwal praktikum pemograman web kelas Ti B menggunakan list
 
 <!DOCTYPE html>
