@@ -29,6 +29,26 @@ c. Membuat tabel Mahasiswa menggunakan style css
 d. Mencari hasil nilai dari suatu tabel
 
 ##PREVIEW
+Dibawah ini contoh jadwal praktikum pemograman web kelas Ti B menggunakan list
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Jadwal Praktikum Web</h2>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JAVA SCRIPT</li>
+</ol>  
+
+</body>
+</html>
+
+maksud dari code diatas adalah <h2></h2> untuk memberi heading atau judul maupun sub judul yang berukuran 2, lalu ada <ol></ol> yang fungsi nya untuk menampilkan angka 1,2,3, berikutnya ada <li></li> sebagai list 
+
+Tabel ke2
 <!DOCTYPE html>
 <html>
 <head>
