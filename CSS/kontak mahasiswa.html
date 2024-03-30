@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        #table2 {
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border: 3px solid green;
+        }
+
+        #table2 td, #table2 th{
+          border: 2px solid green;
+          padding: 6px;
+        }
+        #table2 tr:nth-child(even){background-color: beige;}
+
+        #table2 tr:hover {background-color: greenyellow;}
+
+        #table2 th{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            background-color:chartreuse;
+            color: black;
+        }
+        </style>
+        
+<table id="table2" style="width:33%">
+    <tr>
+        <td Colspan = "2" Align = "Center" style="background-color:chartreuse;"><b>Kontak Mahasiswa</b></th>
+    </tr>
+    <td>Name</td>
+    <td>No. Telp</td>
+  </tr>
+  <tr>
+    <td>Ratna</td>
+    <td>543.876</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Nayla</td>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+  <td>Salma</td>
+  <td rowspan="3"><img src="https://static-00.iconduck.com/assets.00/call-icon-2047x2048-1v137evf.png" width="100px" height="100px"></td>
+  </tr>
+    <td>Arsita</td>
+  </tr>
+</table>
