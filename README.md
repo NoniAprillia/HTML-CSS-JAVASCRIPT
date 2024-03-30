@@ -113,8 +113,13 @@ lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu ji
 
 terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
 
-- selanjutnya mencari hari menggunakan javascript
+- selanjutnya mencari hari menggunakan javascript.
   ```sh
+  <h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
 <script>
 const time = new Date().getHours();
 let greeting;
