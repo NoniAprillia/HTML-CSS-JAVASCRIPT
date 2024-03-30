@@ -30,13 +30,13 @@ d. Mencari hasil nilai dari suatu tabel
 
 ##PREVIEW
 
-Dibawah ini contoh jadwal praktikum pemograman web kelas Ti B menggunakan list
+Dibawah ini contoh materi praktikum pemograman web kelas Ti B menggunakan list
 
 <!DOCTYPE html>
 <html>
 <body>
 
-<h2>Jadwal Praktikum Web</h2>
+<h2>Materi Praktikum Web</h2>
 
 <ol>
   <li>HTML</li>
