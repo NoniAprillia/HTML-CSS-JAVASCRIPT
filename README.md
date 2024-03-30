@@ -116,8 +116,7 @@ terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar ya
 - selanjutnya mencari hari menggunakan javascript.
   ```sh
   <h2>JavaScript if .. else</h2>
-
-<p>A time-based greeting:</p>
+  <p>A time-based greeting:</p>
 
 <p id="demo"></p>
 <script>
