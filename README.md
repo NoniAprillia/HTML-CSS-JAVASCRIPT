@@ -119,35 +119,23 @@ selanjutnya mencari hari menggunakan javascript
 <html>
 <body>
 
-<h2>JavaScript switch</h2>
+<h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
 
 <p id="demo"></p>
 
 <script>
-let day;
-switch (new Date().getDay()) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case  6:
-    day = "Saturday";
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
 }
-document.getElementById("demo").innerHTML = "Today is " + day;
+document.getElementById("demo").innerHTML = greeting;
 </script>
 
 </body>
