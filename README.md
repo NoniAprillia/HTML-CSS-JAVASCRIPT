@@ -48,7 +48,7 @@ Dibawah ini contoh jadwal praktikum pemograman web kelas Ti B menggunakan list
 
 maksud dari code diatas adalah h2 untuk memberi heading atau judul maupun sub judul yang berukuran 2, lalu ada ol yang fungsi nya untuk menampilkan angka 1,2,3, berikutnya ada li sebagai list 
 
-berikutnya kita akan membuat tabel dengan css
+berikutnya kita akan membuat tabel kontak person mahasiswa dengan mrnggunakan css
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -104,3 +104,11 @@ berikutnya kita akan membuat tabel dengan css
     <td>Arsita</td>
   </tr>
 </table>
+
+pertama beri wadah atau tempat menyimpan id tabel dengan simbol pagar untuk di panggil nanti. lalu di style font, color, backgound color, width, dan juga border lalu id table td dan th untuk garis penyekat tabel di beri border dan padding
+
+lalu pemberian hover yang membuat saat mouse ketika diarahkan kepada table makan table akan berwarna tanpa di klik dengan hover
+
+lalu jika kita akan menggabungkan 2 kolom kita dapat menggunakan colspan lalu jika ingin menggabukan beberapa baris kolom maka menggunakan rowspan 
+
+terakhir kita gunakan gambar dengan menggunakan img src lalu copy link gambar yang akan di gunakan
