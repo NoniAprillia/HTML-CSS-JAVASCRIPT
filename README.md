@@ -50,94 +50,57 @@ maksud dari code diatas adalah h2 untuk memberi heading atau judul maupun sub ju
 
 berikutnya kita akan membuat tabel dengan css
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-#customers {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        #table2 {
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border: 3px solid green;
+        }
 
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
+        #table2 td, #table2 th{
+          border: 2px solid green;
+          padding: 6px;
+        }
+        #table2 tr:nth-child(even){background-color: beige;}
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+        #table2 tr:hover {background-color: greenyellow;}
 
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
-</head>
-<body>
-
-<h1>A Fancy Table</h1>
-
-<table id="customers">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+        #table2 th{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            background-color:chartreuse;
+            color: black;
+        }
+        </style>
+        
+<table id="table2" style="width:33%">
+    <tr>
+        <td Colspan = "2" Align = "Center" style="background-color:chartreuse;"><b>Data Mahasiswa</b></th>
+    </tr>
+    <td>Name</td>
+    <td>No. Telp</td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Ratna</td>
+    <td>543.876</td>
   </tr>
   <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
+    <td rowspan="2">Nayla</td>
+    <td>555-1234</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>555-8745</td>
   </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+  <td>Salma</td>
+  <td rowspan="3"><img src="https://static-00.iconduck.com/assets.00/call-icon-2047x2048-1v137evf.png" width="100px" height="100px"></td>
   </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
+    <td>Arsita</td>
   </tr>
 </table>
-
-</body>
-</html>
